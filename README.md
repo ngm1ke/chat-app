@@ -1,2 +1,2 @@
-# chat-app
-Basic chat app using react and nest and postgresql.
+# School Management
+Basic school management using react and nestjs and postgresql.
