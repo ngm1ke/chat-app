@@ -52,7 +52,7 @@ describe('UserService', () => {
       role: Role.STUDENT,
     });
     const found = await userService.findOne(saved.id);
-    expect(found).toMatchObject({ fullName: 'Alice' });
+    expect(found).toMatchObject({ fullName: 'Alicea' }); // test ci failed
   });
 
   it('update changes the name', async () => {
