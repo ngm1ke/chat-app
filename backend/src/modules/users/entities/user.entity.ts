@@ -26,8 +26,8 @@ export class User {
   @Column({ name: 'password_hash', type: 'varchar' })
   passwordHash: string;
 
-  @Column({ name: 'date_of_birth', type: 'date', nullable: true })
-  dateOfBirth: Date | null;
+  @Column({ name: 'date_of_birth', type: 'date' })
+  dateOfBirth: Date;
 
   @Column({ type: 'enum', enum: Role })
   role: Role;
